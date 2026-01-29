@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-6xl mx-auto px-5;
+  }
+  
+  .section {
+    @apply py-20;
+  }
+  
+  .section-title {
+    @apply text-4xl font-bold mb-8 text-gray-900;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed;
+  }
+  
+  .btn-primary {
+    @apply bg-teal-500 text-white px-7 py-3.5 border-none rounded-full text-base font-semibold cursor-pointer transition-all duration-300 inline-block hover:bg-teal-600 hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent text-teal-500 px-7 py-3.5 border-2 border-teal-500 rounded-full text-base font-semibold cursor-pointer transition-all duration-300 inline-block hover:bg-teal-500 hover:text-white;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl p-8 shadow-lg transition-transform duration-300 hover:-translate-y-1;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      @apply px-4;
+    }
+    
+    .section {
+      @apply py-16;
+    }
+    
+    .section-title {
+      @apply text-3xl;
+    }
+    
+    .section-subtitle {
+      @apply text-base;
+    }
+  }
+  
+  /* Hero Slider Custom Styles */
+  .slick-dots {
+    position: absolute !important;
+    bottom: 80px !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 30 !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    pointer-events: none !important;
+  }
+  
+  .slick-dots li {
+    position: relative !important;
+    display: inline-block !important;
+    margin: 0 6px !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+    width: auto !important;
+    height: auto !important;
+    pointer-events: auto !important;
+  }
+  
+  .slick-dots li button {
+    display: block !important;
+    width: 12px !important;
+    height: 12px !important;
+    padding: 0 !important;
+    border: none !important;
+    outline: none !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    text-indent: -9999px !important;
+  }
+  
+  .slick-dots li button:hover {
+    background: rgba(255, 255, 255, 0.9) !important;
+    transform: scale(1.1) !important;
+  }
+  
+  .slick-dots li.slick-active button {
+    background: rgba(255, 255, 255, 1) !important;
+    opacity: 1 !important;
+    transform: scale(1.2) !important;
+  }
+  
+  .slick-dots li button:before {
+    display: none !important;
+    content: none !important;
+  }
+  
+  /* Override any default slick styles */
+  .slick-dots li button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) !important;
+  }
+  
+  /* Additional slick carousel overrides */
+  .slick-slider {
+    position: relative !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+  
+  .slick-list {
+    position: relative !important;
+    display: block !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .slick-track {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .slick-slide {
+    display: none !important;
+    float: left !important;
+    height: 100% !important;
+    min-height: 1px !important;
+  }
+  
+  .slick-slide.slick-active {
+    display: block !important;
+  }
+}
