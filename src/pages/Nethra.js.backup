@@ -155,8 +155,8 @@ const Nethra = () => {
                 </h2>
               </div>
             </div>
-            <div className='space-y-6'>
-              <div className='space-y-4'>
+            <div className='flex flex-col lg:flex-row items-center justify-between gap-6'>
+              <div className='space-y-4 max-w-xl'>
                 <p className='text-gray-700 text-sm sm:text-base'>
                   Let’s create a healthy digital environment by providing
                   tamper-proof safe distance viewing of mobile/tab devices. Just
@@ -168,88 +168,72 @@ const Nethra = () => {
                   screen and forces the viewer to move the device to a safe
                   distance.
                 </p>
-              </div>
-
-              <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 items-center'>
-                <div className='flex justify-center items-start'>
-                  <img
-                    src='/assets/nethra.png'
-                    alt='Nethra app interface showing safe distance settings and distance guard feature'
-                    className='w-10/12 max-w-md sm:max-w-xl max-h-full'
-                  />
+                <div className='rounded-xl border border-amber-200 bg-amber-50/70 p-4 space-y-2'>
+                  <h3 className='text-sm sm:text-base font-semibold text-amber-700'>
+                    Important: passcode protection
+                  </h3>
+                  <ul className='space-y-2 text-gray-700 text-sm sm:text-base'>
+                    <li className='flex gap-2'>
+                      <span className='text-amber-600'>•</span>
+                      <span>
+                        Kids cannot change the distance without the passcode.
+                      </span>
+                    </li>
+                    <li className='flex gap-2'>
+                      <span className='text-amber-600'>•</span>
+                      <span>
+                        Kids cannot turn off Distance Guard without the
+                        passcode.
+                      </span>
+                    </li>
+                    <li className='flex gap-2'>
+                      <span className='text-amber-600'>•</span>
+                      <span>
+                        Kids cannot uninstall the app without the passcode.
+                      </span>
+                    </li>
+                  </ul>
                 </div>
-
-                <div className='space-y-3 text-sm sm:text-base'>
-                  <div className='space-y-4'>
-                    <div className='flex gap-3'>
-                      <span className='text-teal-500 text-lg flex-shrink-0'>
-                        →
+                <div className='space-y-3 text-gray-700 text-sm sm:text-base'>
+                  <h3 className='text-sm sm:text-base font-semibold text-teal-700'>
+                    On-screen fields explained
+                  </h3>
+                  <div className='space-y-2'>
+                    <div className='flex gap-2'>
+                      <span className='text-teal-500'>→</span>
+                      <span>
+                        Location: just to know the state of your residence to
+                        know about users.
                       </span>
-                      <div>
-                        <p className='font-semibold text-gray-900'>Location</p>
-                        <p className='text-gray-700 text-xs sm:text-sm'>
-                          Just to know the state of your residence to know about
-                          users.
-                        </p>
-                      </div>
                     </div>
-                    <div className='flex gap-3'>
-                      <span className='text-teal-500 text-lg flex-shrink-0'>
-                        →
+                    <div className='flex gap-2'>
+                      <span className='text-teal-500'>→</span>
+                      <span>
+                        Distance toggle: change the mobile viewing distance as
+                        per your requirement to protect the wonderful eyes of
+                        your loved ones.
                       </span>
-                      <div>
-                        <p className='font-semibold text-gray-900'>
-                          Distance Toggle
-                        </p>
-                        <p className='text-gray-700 text-xs sm:text-sm'>
-                          Change the mobile viewing distance as per your
-                          requirement to protect the wonderful eyes of your
-                          loved ones.
-                        </p>
-                      </div>
                     </div>
-                    <div className='flex gap-3'>
-                      <span className='text-teal-500 text-lg flex-shrink-0'>
-                        →
+                    <div className='flex gap-2'>
+                      <span className='text-teal-500'>→</span>
+                      <span>
+                        Distance Guard: select the distance and enable Distance
+                        Guard, which creates a safe distance for device viewing.
                       </span>
-                      <div>
-                        <p className='font-semibold text-gray-900'>
-                          Distance Guard
-                        </p>
-                        <p className='text-gray-700 text-xs sm:text-sm'>
-                          Select the distance and enable Distance Guard, which
-                          creates a safe distance for device viewing.
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div className='rounded-xl border border-amber-200 bg-amber-50/70 p-4 space-y-2'>
-                <h3 className='text-sm sm:text-base font-semibold text-amber-700'>
-                  Important: passcode protection
-                </h3>
-                <ul className='space-y-2 text-gray-700 text-sm sm:text-base'>
-                  <li className='flex gap-2'>
-                    <span className='text-amber-600'>•</span>
-                    <span>
-                      Kids cannot change the distance without the passcode.
-                    </span>
-                  </li>
-                  <li className='flex gap-2'>
-                    <span className='text-amber-600'>•</span>
-                    <span>
-                      Kids cannot turn off Distance Guard without the passcode.
-                    </span>
-                  </li>
-                  <li className='flex gap-2'>
-                    <span className='text-amber-600'>•</span>
-                    <span>
-                      Kids cannot uninstall the app without the passcode.
-                    </span>
-                  </li>
-                </ul>
+              <div className='flex flex-col items-center gap-4'>
+                <p className='text-center text-xs sm:text-sm text-teal-700 max-w-xs'>
+                  Core purpose & usage: tamper-proof safe distance viewing for
+                  mobile/tab devices.
+                </p>
+                <img
+                  src='/assets/nethra.png'
+                  alt='Nethra app interface showing safe distance settings and distance guard feature'
+                  className='max-w-xs sm:max-w-sm max-h-96 rounded-xl shadow-lg border border-teal-200 flex-1'
+                />
               </div>
             </div>
           </section>
