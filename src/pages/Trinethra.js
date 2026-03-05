@@ -10,7 +10,7 @@ import HowItWorks from '../components/HowItWorks';
 import AppPreview from '../components/AppPreview';
 import Footer from '../components/Footer';
 
-const ThriNethra = () => {
+const Trinethra = () => {
   return (
     <div className='App text-center'>
       <Hero />
@@ -44,4 +44,4 @@ const ThriNethra = () => {
   );
 };
 
-export default ThriNethra;
+export default Trinethra;

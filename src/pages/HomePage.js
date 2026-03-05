@@ -56,8 +56,8 @@ const HomePage = () => {
                 from unauthorized access.
               </p>
               <Link
-                to='/thrinethra'
-                aria-label='Go to ThriNethra page'
+                to='/Trinethra'
+                aria-label='Go to Trinethra page'
                 className='relative w-full max-w-md aspect-[4/3] group'
               >
                 <div className='absolute inset-0 rounded-3xl bg-gradient-to-tr from-teal-100/60 via-cyan-100/40 to-teal-50/30 blur-2xl transition-opacity duration-300 group-hover:opacity-90'></div>

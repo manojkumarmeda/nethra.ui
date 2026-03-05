@@ -102,6 +102,13 @@ const Footer = () => {
             </button>
             <span>|</span>
             <button
+              onClick={() => window.open('/Trinethra-terms', '_blank')}
+              className='cursor-pointer hover:underline bg-transparent border-none text-xs text-teal-200 hover:text-white p-0'
+            >
+              Trinethra Terms
+            </button>
+            <span>|</span>
+            <button
               onClick={() => window.open('/refund-policy', '_blank')}
               className='cursor-pointer hover:underline bg-transparent border-none text-xs text-teal-200 hover:text-white p-0'
             >
