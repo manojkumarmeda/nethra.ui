@@ -261,9 +261,20 @@ const PrivacyPolicy = () => {
             </p>
           </section>
 
+          <section className='mb-5 border-b-2 border-gray-200 pb-3'>
+            <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
+              9. Accessibility Service Usage
+            </h2>
+            <p className='text-gray-700 mb-4 leading-relaxed text-left text-sm'>
+              The app may use Android Accessibility Service to support safe
+              device usage. No personal or sensitive data is collected, and the
+              service can be disabled anytime.
+            </p>
+          </section>
+
           <section className='mb-5'>
             <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              9. Contact Us
+              10. Contact Us
             </h2>
             <p className='text-gray-700 mb-4 leading-relaxed text-left text-sm'>
               If you have any questions or requests regarding this Privacy
