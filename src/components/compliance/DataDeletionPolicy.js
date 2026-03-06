@@ -4,110 +4,151 @@ const DataDeletionPolicy = () => {
       <div className='flex-1 overflow-y-auto p-6'>
         <div className='max-w-none prose prose-gray'>
           <div className='mb-5'>
+            <h1 className='text-lg font-bold text-gray-900 mb-3 text-left'>
+              Data Deletion Policy
+            </h1>
             <p className='text-sm text-gray-700 leading-relaxed text-left'>
-              This policy outlines how we handle your data when your
-              subscription ends and your rights regarding data deletion.
+              This policy explains how users can request deletion of their
+              account and associated data in the Nethra Parent App.
             </p>
           </div>
 
           <section className='mb-5 border-b-2 border-gray-200 pb-3'>
             <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              1. Data Retention After Subscription Ends
+              Requesting Data Deletion
             </h2>
             <p className='text-sm text-gray-700 mb-3 leading-relaxed text-left'>
-              When a user's subscription expires, is canceled, or is not
-              renewed, the application retains the user's personal and
-              app-related data for <strong>30 days</strong> from the
-              subscription end date.
-            </p>
-            <p className='text-sm text-gray-700 leading-relaxed text-left'>
-              This retention period allows users to restore their account, renew
-              their subscription, or export their data if needed.
+              Users can request deletion of their account and associated data
+              using one of the following methods.
             </p>
           </section>
 
           <section className='mb-5 border-b-2 border-gray-200 pb-3'>
             <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              2. Data Deletion After Retention Period
+              Option 1: Delete Account From the App
             </h2>
             <p className='text-sm text-gray-700 mb-4 leading-relaxed text-left'>
-              After the 30-day retention period, all user data is permanently
-              deleted from our systems. This deletion is irreversible and
-              includes:
+              You can delete your account directly within the app.
+            </p>
+            <p className='text-sm text-gray-700 mb-3 leading-relaxed text-left'>
+              Steps:
+            </p>
+            <ol className='text-sm list-decimal list-inside text-gray-700 mb-4 space-y-2 ml-4 text-left'>
+              <li className='leading-relaxed'>Open the Nethra Parent App</li>
+              <li className='leading-relaxed'>Go to Settings</li>
+              <li className='leading-relaxed'>Tap Account Settings</li>
+              <li className='leading-relaxed'>Select Delete Account</li>
+              <li className='leading-relaxed'>Confirm the deletion request</li>
+            </ol>
+            <p className='text-sm text-gray-700 leading-relaxed text-left'>
+              Once confirmed, the account and associated data will be scheduled
+              for deletion.
+            </p>
+          </section>
+
+          <section className='mb-5 border-b-2 border-gray-200 pb-3'>
+            <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
+              Option 2: Request Deletion by Email
+            </h2>
+            <p className='text-sm text-gray-700 mb-4 leading-relaxed text-left'>
+              Users may also request data deletion by contacting our support
+              team.
+            </p>
+            <p className='text-sm text-gray-700 mb-3 leading-relaxed text-left'>
+              Email:{' '}
+              <a
+                href='mailto:support@vidurainfotech.com'
+                className='text-blue-600 hover:underline'
+              >
+                support@vidurainfotech.com
+              </a>
+            </p>
+            <p className='text-sm text-gray-700 mb-3 leading-relaxed text-left'>
+              Please include:
             </p>
             <ul className='text-sm list-disc list-inside text-gray-700 mb-4 space-y-2 ml-4 text-left'>
-              <li className='leading-relaxed'>Account information</li>
-              <li className='leading-relaxed'>User-generated content</li>
+              <li className='leading-relaxed'>Registered email address</li>
+              <li className='leading-relaxed'>Account name (if available)</li>
               <li className='leading-relaxed'>
-                Usage data associated with the account
-              </li>
-              <li className='leading-relaxed'>
-                Any stored preferences or settings
+                Subject line: Data Deletion Request
               </li>
             </ul>
           </section>
 
           <section className='mb-5 border-b-2 border-gray-200 pb-3'>
             <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              3. User-Initiated Deletion
+              What Data Will Be Deleted
             </h2>
             <p className='text-sm text-gray-700 mb-4 leading-relaxed text-left'>
-              Users may request data deletion at any time by:
+              When an account deletion request is processed, the following data
+              will be removed:
             </p>
             <ul className='text-sm list-disc list-inside text-gray-700 mb-4 space-y-2 ml-4 text-left'>
+              <li className='leading-relaxed'>User account information</li>
+              <li className='leading-relaxed'>Parent profile data</li>
+              <li className='leading-relaxed'>Child profile data</li>
               <li className='leading-relaxed'>
-                Using the in-app "Delete Account" option (if available), or
+                Device information linked to the account
               </li>
               <li className='leading-relaxed'>
-                Contacting support through the provided contact details
+                Activity logs and monitoring data
+              </li>
+              <li className='leading-relaxed'>App usage statistics</li>
+              <li className='leading-relaxed'>
+                Location data associated with the account
               </li>
             </ul>
+          </section>
+
+          <section className='mb-5 border-b-2 border-gray-200 pb-3'>
+            <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
+              Data Retention
+            </h2>
+            <p className='text-sm text-gray-700 mb-4 leading-relaxed text-left'>
+              Some limited data may be retained for legal or compliance
+              purposes, including:
+            </p>
+            <ul className='text-sm list-disc list-inside text-gray-700 mb-4 space-y-2 ml-4 text-left'>
+              <li className='leading-relaxed'>Transaction records</li>
+              <li className='leading-relaxed'>Payment receipts</li>
+              <li className='leading-relaxed'>Security logs</li>
+            </ul>
             <p className='text-sm text-gray-700 leading-relaxed text-left'>
-              If deletion is requested before the 30-day retention period ends,
-              data will be deleted earlier unless retention is required by law.
+              These records are retained only where legally required.
             </p>
           </section>
 
           <section className='mb-5 border-b-2 border-gray-200 pb-3'>
             <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              4. Legal & Compliance Obligations
+              Processing Time
             </h2>
-            <p className='text-sm text-gray-700 mb-4 leading-relaxed text-left'>
-              Certain data may be retained beyond the 30-day period if required
-              to comply with:
-            </p>
             <ul className='text-sm list-disc list-inside text-gray-700 mb-4 space-y-2 ml-4 text-left'>
-              <li className='leading-relaxed'>Legal obligations</li>
-              <li className='leading-relaxed'>Regulatory requirements</li>
               <li className='leading-relaxed'>
-                Fraud prevention or dispute resolution
+                Account deactivation: within 72 hours
+              </li>
+              <li className='leading-relaxed'>
+                Complete data removal from active systems: within 7 days
+              </li>
+              <li className='leading-relaxed'>
+                Backup deletion cycle: within 30 days
               </li>
             </ul>
-            <p className='text-sm text-gray-700 leading-relaxed text-left'>
-              Such data is securely stored and deleted once retention is no
-              longer legally required.
-            </p>
-          </section>
-
-          <section className='mb-5 border-b-2 border-gray-200 pb-3'>
-            <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              5. Data Security
-            </h2>
-            <p className='text-sm text-gray-700 leading-relaxed text-left'>
-              All retained data during the 30-day period is protected using
-              appropriate technical and organizational security measures to
-              prevent unauthorized access, alteration, or disclosure.
-            </p>
           </section>
 
           <section className='mb-5'>
             <h2 className='text-base font-bold text-gray-900 mb-4 text-left'>
-              6. Policy Updates
+              Contact
             </h2>
-            <p className='text-sm text-gray-700 mb-4 leading-relaxed text-left'>
-              This data deletion policy may be updated periodically. Users will
-              be notified of significant changes through the app or other
-              appropriate means.
+            <p className='text-sm text-gray-700 leading-relaxed text-left'>
+              For any questions regarding data deletion or privacy requests,
+              email:{' '}
+              <a
+                href='mailto:support@vidurainfotech.com'
+                className='text-blue-600 hover:underline'
+              >
+                support@vidurainfotech.com
+              </a>
+              .
             </p>
           </section>
         </div>
